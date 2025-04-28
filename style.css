@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.gallery img {
+    width: 300px;
+    height: auto;
+    margin: 20px 0;
+}
+
+.tabcontent {
+    margin-top: 10px;
+}
+
+.tablink {
+    background-color: lightgray;
+}
+
+.tablink.active {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+#formMessage {
+    margin-top: 10px;
+    color: red;
+}
+
+/* Simple animation */
+@keyframes pop {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}

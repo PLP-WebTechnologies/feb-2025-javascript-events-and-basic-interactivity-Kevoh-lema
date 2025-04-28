@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Event Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>🎉 Welcome to the Event Playground! 🎉</h1>
+
+    <!-- Button -->
+    <button id="magicButton">Click Me!</button>
+
+    <!-- Image Gallery -->
+    <div class="gallery">
+        <img id="galleryImage" src="image 1" alt="Gallery Image">
+        <br>
+        <button id="nextImage">Next Image</button>
+    </div>
+
+    <!-- Tabs -->
+    <div class="tabs">
+        <button class="tablink" data-tab="tab1">Tab 1</button>
+        <button class="tablink" data-tab="tab2">Tab 2</button>
+
+        <div id="tab1" class="tabcontent">This is Tab 1 Content</div>
+        <div id="tab2" class="tabcontent" style="display:none;">This is Tab 2 Content</div>
+    </div>
+
+    <!-- Form -->
+    <form id="myForm">
+        <input type="text" id="name" placeholder="Enter your name" required><br>
+        <input type="email" id="email" placeholder="Enter your email" required><br>
+        <input type="password" id="password" placeholder="Enter your password" required><br>
+        <button type="submit">Submit</button>
+        <p id="formMessage"></p>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
